@@ -1,5 +1,11 @@
-flags: {}
+flags:
+  xmobar:
+    all_extensions: true
 packages:
 - '.'
-extra-deps: []
+extra-deps:
+- X11-xft-0.3.1
+- alsa-core-0.5.0.1
+- alsa-mixer-0.2.0.3
+- libmpd-0.9.0.6
 resolver: lts-4.1
